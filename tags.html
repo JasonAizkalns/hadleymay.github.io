@@ -10,13 +10,16 @@ sitemap:
 ---
 
 Click on a tag to see relevant list of posts.
+<br>
 
-<ul class="tags">
+<!-- <ul class="tags"> -->
 {% for tag in site.tags %}
   {% assign t = tag | first %}
-  <li><a href="/tags/#{{t | downcase | replace:" ","-" }}">{{ t | downcase }}</a></li>
+  <!-- <li> -->
+  <a href="/tags/#{{t | downcase | replace:" ","-" }}"><button type="button" class="btn btn-primary btn-sm">{{ t | downcase }}</button></a>
+  <!-- </li> -->
 {% endfor %}
-</ul>
+<!-- </ul> -->
 
 <hr>
 

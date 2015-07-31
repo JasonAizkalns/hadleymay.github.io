@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Growing Up Hadley</title>
-    <description>A virtual proof that Hadley May is awesome!</description>
+    <description>A website about growing up Hadley May. A reflection of parenthood from multiple perspectives. Mom and Dad&#39;s way of keeping a record of this amazing experience.</description>
     <link>http://hadleymay.github.io</link>
     <atom:link href="http://hadleymay.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
