@@ -1,8 +1,10 @@
 ---
 layout: post
 title: First post!
+category: major
+tags: [first, test, daddy]
 ---
 
 This is my first post, how exciting!
 
-Changing some text.
+Changing some text. More text.
