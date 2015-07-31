@@ -31,8 +31,8 @@ navbar-links:
   Home: ""
   About Me: "aboutme"
   Contact: "contact"
-  Archive: "archive"
-  
+  #Archive: "archive"
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -45,7 +45,7 @@ author:
   twitter: yourname   # eg. daattali
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "users/3943160/daattali"
- 
+
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -108,4 +108,3 @@ prose:
     - /css
     - /img
     - /js
-    
