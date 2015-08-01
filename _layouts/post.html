@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% assign post = page %}
+<!-- {% assign post = page %}
 {% if post.tags.size > 0 %}
-    <!-- {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %} -->
+    {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
     {% capture tags_content %}{% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
     {% for post_tag in post.tags %}
         {% for data_tag in site.data.tags %}
@@ -19,7 +19,7 @@ layout: default
     {% endfor %}
 {% else %}
     {% assign tags_content = '' %}
-{% endif %}
+{% endif %} -->
 
 <header class="header-post">
   <div class="row">
@@ -31,8 +31,9 @@ layout: default
         {% endif %}
         <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
         <div class="tags">
-        Tags
-        {% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}
+          <i class="fa fa-tags"></i>
+        <!-- {% for tag in page.tags %} <div class='tag'><a href='/tags/#{{tag}}'>{{tag}}</a></div> {% endfor %}</i> -->
+        {% for tag in page.tags %} <a href='/tags/#{{tag}}' class="btn btn-primary btn-xs">{{tag}}</a> {% endfor %}
         </div>
       </div>
      </div>

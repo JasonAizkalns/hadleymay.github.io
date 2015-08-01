@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First post!
+subtitle: This is a subtitle
 tags:
   - first
   - test
