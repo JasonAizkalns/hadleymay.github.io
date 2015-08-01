@@ -14,3 +14,9 @@ $('#main-navbar').on('show.bs.collapse', function () {
 $('#main-navbar').on('hidden.bs.collapse', function () {
   $(".navbar").removeClass("top-nav-expanded");
 })
+
+$("#search-drop-down").click(function() {
+  setTimeout(function() {
+    $("#my-google-search").focus();
+  }, 1); // why???
+})
